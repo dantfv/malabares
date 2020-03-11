@@ -110,7 +110,7 @@ void draw() {
       stroke(backgroundColor);
       fill(backgroundColor);    
       rect(cameraX, cameraY, video.width, video.height);
-      //eraseCamera = false;
+      eraseCamera = false;
     }
   }
 
